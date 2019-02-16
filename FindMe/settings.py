@@ -25,7 +25,7 @@ SECRET_KEY = '2#ix-4*1184#)9i1okjf-dtujkj-zj#olkufak!5pd%2ce8*j^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['http://mithila.pythonanywhere.com/']
 
 
 # Application definition
