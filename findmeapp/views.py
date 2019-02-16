@@ -51,9 +51,10 @@ def naive_bayes(training, outcome, new_sample):
     print(results[0])
     print(results[1])
     try:
-        return str(results[1] / (results[0] + results[1]) * 100)
-    except():
-        return "NULL"
+        ans = str(results[1] / (results[0] + results[1]) * 100)
+    except ZeroDivisionError:
+        ans = "NULL"
+    return ans
 
 
 # if __name__ == "__main__":
